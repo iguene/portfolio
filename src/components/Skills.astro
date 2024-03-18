@@ -1,0 +1,87 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Full Stack</h2>
+		<p>
+			Avec une maîtrise polyvalente des langages tels que Java, C, Python, et des technologies
+			web comme HTML, CSS, JavaScript, PHP, je suis un Full Stack Developer créatif. 
+			Mon expérience inclut le développement de jeux en Python, le scraping de données avec Python,
+			et l'intégration d'API Google pour des solutions cloud. Fort de mon bagage technique 
+			et de ma formation MIAGE, je suis prêt à relever les défis complexes du développement full stack.
+		</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="trophy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Database</h2>
+		<p>
+			Avec une expertise approfondie en gestion de bases de données MySQL et PostgreSQL, 
+			je suis un développeur Full Stack spécialisé dans la création d'environnements robustes. 
+			Mon expérience inclut la conception et le développement d'outils de scraping avec intégration 
+			efficace des données dans des bases MySQL locales. J'ai également démontré mes compétences en déployant 
+			des solutions cloud avec l'intégration d'API Google, optimisant ainsi les processus. 
+			Ma polyvalence technique et mon engagement envers l'excellence font de moi un professionnel 
+			apte à répondre aux défis complexes des bases de données dans un contexte Full Stack.
+
+
+		</p>
+	</div>
+	<div class="stack gap-2 lg:gap-4">
+		<Icon icon="strategy" color="var(--accent-regular)" size="2.5rem" gradient />
+		<h2>Polyvalence</h2>
+		<p>
+			Avec une expertise pointue en gestion de bases de données MySQL et PostgreSQL, 
+			je me distingue en tant que développeur Full Stack, affirmant mon engagement envers la polyvalence. 
+			Mon parcours témoigne de ma capacité à naviguer habilement entre des langages variés tels que Java, 
+			C, Python, et des technologies web telles que HTML, CSS, JavaScript, PHP. 
+			Ma passion pour l'apprentissage continu et mon enthousiasme à m'engager dans des méthodologies 
+			agiles démontrent ma volonté constante d'élargir mes compétences et d'embrasser la diversité des 
+			défis techniques. Mon profil résolument polyvalent constitue un atout précieux pour innover au sein 
+			d'équipes agiles et répondre efficacement aux exigences du développement Full Stack.
+		</p>
+	</div>
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
