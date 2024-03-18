@@ -1,7 +1,7 @@
 ---
 title: Chess
 publishDate: 2020-03-02 00:00:00
-img: /my-repo/assets/stock-1.jpg
+img: /portfolio/assets/stock-1.jpg
 img_alt: jeu d'echec
 description: |
   we deigned a chess game
