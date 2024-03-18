@@ -1,7 +1,7 @@
 ---
 title: klickety
 publishDate: 2023-04-01 00:00:00
-img: /my-repo/assets/stock-2.png
+img: /portfolio/assets/stock-2.png
 img_alt: klickety game
 description: |
   We developped a klickety game that was launched on itch.io.
