@@ -4,7 +4,7 @@ publishDate: 2023-04-25 00:00:00
 img: /portfolio/assets/stock-3.jpg
 img_alt: Html image
 description: site web
-  Nous avons dévelloppé un site web basé sur le jeux Pierre-Feuille-Ciseaux.
+  website based on the game Rock-Paper-Scissors.
 tags:
   - Design
   - Dev
