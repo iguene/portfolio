@@ -1,7 +1,7 @@
 ---
 title: Pierre-Feuille-Ciseaux
 publishDate: 2023-04-25 00:00:00
-img: /my-repo/assets/stock-3.jpg
+img: /portfolio/assets/stock-3.jpg
 img_alt: Html image
 description: site web
   Nous avons dévelloppé un site web basé sur le jeux Pierre-Feuille-Ciseaux.
