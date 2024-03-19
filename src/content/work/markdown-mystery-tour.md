@@ -4,7 +4,7 @@ publishDate: 2020-03-02 00:00:00
 img: /portfolio/assets/stock-1.jpg
 img_alt: jeu d'echec
 description: |
-  we deigned a chess game
+  we designed a chess game
 tags:
   - AI
   - Dev
